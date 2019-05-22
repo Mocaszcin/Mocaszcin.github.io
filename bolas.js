@@ -19,7 +19,7 @@ class Bolas {
   }
 
   show() {
-    stroke(this.colores, 0 ,255-this.colores);
+    stroke(this.colores, 255 ,255-this.colores);
     strokeWeight(3);
     fill(255);
     ellipse(this.x, this.y, this.r * 2);
