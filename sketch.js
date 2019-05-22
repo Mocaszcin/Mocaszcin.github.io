@@ -17,6 +17,6 @@ function draw() {
 }
 
 function mouseDragged() {
-  let unidad=new Bolas(mouseX, mouseY, 5, random(0,255));
+  let unidad=new Bolas(mouseX, mouseY, 30, random(0,255));
   bolas.push(unidad)
 }
