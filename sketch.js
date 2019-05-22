@@ -11,7 +11,7 @@ function draw() {
   background(0);
 
   for (let bola of bolas) {
-    bola.move();
+    //bola.move();
     bola.show();
   }
 }
